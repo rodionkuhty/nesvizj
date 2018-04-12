@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+}
+header{
+    width: 1920px;
+    height: 225px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.header_background{
+    width: 100%;
+    height: 193px;
+    background-image: url("pics/rozh-kolosya-pole-zolotistye-nebo-selskoe-hozyaystvo-947-3840x2400.png");
+    /*background-color: rgba(0, 255, 0, 0.15);*/
+    /*background-color: rgba(0, 100, 0, 0.15);*/
+    background-color: rgba(102, 255, 153, 1);
+}
+.logo{
+    width: 285px;
+    height: 194px;
+    background-image: url("pics/logo.png");
+    position: absolute;
+    top:31px;
+    left: 375px;
+}
+.header_text{
+    width: 837px;
+    height: 118px;
+    position: absolute;
+    top:51px;
+    left: 679px;
+    /*border: 1px solid red;*/
+}
+.gos_header_text{
+    width: 255px;
+    height: 81px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/*.gos_header_text span{*/
+    /*width: 255px;*/
+    /*height: 81px;*/
+    /*color: #312a20;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-size: 20px;*/
+    /*font-weight: 700;*/
+/*}*/
+.organization{
+    width: 619px;
+    height: 23px;
+    position: absolute;
+    top: 85px;
+    left: 0;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    /*line-height: 42px;*/
+    text-transform: uppercase;
+}
+/*.organization span{*/
+    /*color: #312a20;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-size: 20px;*/
+    /*font-weight: 700;*/
+    /*line-height: 42px;*/
+    /*text-transform: uppercase;*/
+/*}*/
+.email{
+    position: absolute;
+    width: 165px;
+    height: 17px;
+    top: 0;
+    left: 347px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    /*line-height: 42px;*/
+    padding-top: 0;
+}
+/*.email span{*/
+    /*color: #312a20;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*font-size: 18px;*/
+    /*font-weight: 700;*/
+    /*line-height: 42px;*/
+    /*padding-top: 0;*/
+/*}*/
+.adress{
+    position: absolute;
+    width: 317px;
+    height: 31px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /*line-height: 18px;*/
+    top: 37px;
+    left: 347px;
+}
+.phone_number{
+    
+}
