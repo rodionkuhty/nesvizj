@@ -29,6 +29,7 @@ header{
     position: absolute;
     top:31px;
     left: 375px;
+    z-index: 3;
 }
 .header_text{
     width: 837px;
@@ -113,5 +114,35 @@ header{
     left: 347px;
 }
 .phone_number{
-    
+    position: absolute;
+    top:0;
+    left: 693px;
+    width: 150px;
+    height: 17px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /*line-height: 42px;*/
+}
+.phone_number span{
+    font-weight: 700;
+}
+.work_time{
+    position: absolute;
+    top: 36px;
+    left: 693px;
+    width: 143px;
+    height: 31px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /*line-height: 18px;*/
+}
+.menu_list{
+    width: 1920px;
+    height: 32px;
+    background-color: #fdfdfd;
+    opacity: 0.7;
 }
