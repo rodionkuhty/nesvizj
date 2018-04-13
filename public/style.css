@@ -6,6 +6,7 @@ body{
 .container{
     width: 100vw;
     min-height: 100vh;
+    margin: 0 auto;
 }
 header{
     width: 1920px;
@@ -21,6 +22,8 @@ header{
     /*background-color: rgba(0, 255, 0, 0.15);*/
     /*background-color: rgba(0, 100, 0, 0.15);*/
     background-color: rgba(102, 255, 153, 1);
+    /*задал */
+    /*position: absolute;*/
 }
 .logo{
     width: 285px;
@@ -143,6 +146,136 @@ header{
 .menu_list{
     width: 1920px;
     height: 32px;
-    background-color: #fdfdfd;
+    /*padding-top: 16px;*/
+    /*background-color: rgba(255, 255, 255, 0.7);*/
     opacity: 0.7;
+    background-color: #979695;
+    margin-top: -16px;
+    /*position: absolute;*/
+    /*margin-left: 696px;*/
+    background-color: rgba(151, 150, 149, 0.7);
+
+}
+.menu_list li{
+    /*display: inline-block;*/
+    float: left;
+    padding-right: 29px;
+    position: relative;
+    left: 660px;
+    top: -4px;
+}
+.menu_list li a{
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.7s;
+}
+.menu_list li a:hover{
+    color: #000;
+    /*font-weight: 700;*/
+    /*font-weight: bold;*/
+
+}
+/*.menu_list li a:first-child{*/
+    /*font-weight: 700;*/
+/*}*/
+.menu_list ul li span i{
+    padding-right: 6px;
+    color: gray;
+}
+.rest_body{
+    margin: 0 auto;
+}
+.main_page_central_pic{
+    width: 1920px;
+    height: 761px;
+    background-image: url("pics/main_pic_main_page.png");
+}
+.icon_section_white{
+    width: 1920px;
+    height:222px;
+    background-color: #ffffff;
+}
+.icons_place{
+    width: 1171px;
+    height:106px;
+    position: absolute;
+    top: 1023px;
+    left: 375px;
+    /*border:1px solid red;*/
+}
+.we_are_manufactures{
+    width: 326px;
+    height: 106px;
+    background-image: url("pics/manufactures.png");
+    background-repeat: no-repeat;
+    float: left;
+}
+.we_are_manufactures .head_manufactures {
+    padding-left: 120px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px
+}
+.we_are_manufactures .text_manufactures{
+    padding-left: 120px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.ecology{
+    width:356px;
+    height: 106px;
+    background-image: url("pics/ecology.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 390px;
+}
+.ecology .head_ecology{
+    padding-left: 122px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+}
+.ecology .text_ecology{
+    padding-left: 122px;
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.research{
+    width:387px;
+    height: 106px;
+    background-image: url("pics/flower.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 784px;
+}
+.research .head_research{
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 42px;
+    padding-left: 125px;
+}
+.research .text_research{
+    color: #312a20;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 125px;
 }
